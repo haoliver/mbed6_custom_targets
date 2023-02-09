@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "macOS",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../mbed-os/**",
+                "${workspaceFolder}/../mbed-external-targets/**"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compileCommands": "${userHome}/Documents/Projects/Firmware/Build_Artifacts/${workspaceFolderBasename}/compile_commands.json",
+            "configurationProvider": "vector-of-bool.cmake-tools"
+        }
+    ],
+    "version": 4
+}
