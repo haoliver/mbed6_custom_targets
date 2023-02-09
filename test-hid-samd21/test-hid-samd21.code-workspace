@@ -1,0 +1,34 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../mbed-os"
+        },
+        {
+            "path": "../mbed-external-targets/TARGET_Atmel/"
+        }
+    ],
+    "settings": {
+        "git.ignoreLimitWarning": true,
+        "cmake.statusbar.advanced": {
+            "debug": {
+                "visibility": "hidden"
+            },
+            "launch": {
+                "visibility": "hidden"
+            },
+            "build": {
+                "visibility": "default"
+            },
+            "buildTarget": {
+                "visibility": "hidden"
+            }
+        },
+        "cmake.buildBeforeRun": true,
+        "cmake.configureOnOpen": false,
+        "cortex-debug.variableUseNaturalFormat": false,
+        "C_Cpp.autoAddFileAssociations": false
+    }
+}
